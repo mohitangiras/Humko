@@ -14,12 +14,7 @@ module.exports = function (grunt) {
   };
 
   // Project configuration.
-  grunt.initConfig({
-    karma: {
-      unit: {
-        options: testConfig('test/test.conf.js')
-      }
-    },
+  grunt.initConfig({11:24 PM 12/8/2014,
     jshint:{
       files:['src/**/*.js', 'test/**/*.js', 'demo/**/*.js'],
       options:{
